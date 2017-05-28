@@ -42,7 +42,7 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
     $(LOCAL_KERNEL):kernel 
 
 # Recovery allowed devices
-TARGET_OTA_ASSERT_DEVICE := aio_otfp_m,aio_otfp,aio_5m,k50a40,k50t5,K50-t5
+TARGET_OTA_ASSERT_DEVICE := aio_otfp
 
 # RIL
 PRODUCT_PACKAGES += \
