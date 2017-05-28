@@ -66,7 +66,6 @@ PRODUCT_PACKAGES += \
        
 PRODUCT_PACKAGES += \
 	libwvmsym
-	fs_config_files
 
 # Graphic
 PRODUCT_PACKAGES += \
