@@ -55,6 +55,11 @@ PRODUCT_PACKAGES += \
 # Snap Camera
 PRODUCT_PACKAGES += \
      Snap
+     
+# Browser
+   PRODUCT_PACKAGES += \
+      Jelly         
+       
 PRODUCT_PACKAGES += \
 	libwvmsym
 
