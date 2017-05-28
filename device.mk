@@ -52,6 +52,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libcam.halsensor 
     
+# Snap Camera
+PRODUCT_PACKAGES += \
+     Snap
 PRODUCT_PACKAGES += \
 	libwvmsym
 
