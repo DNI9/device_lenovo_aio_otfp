@@ -425,4 +425,12 @@
            * The device must be provisioned with HDCP keys (for protected content).
       -->
      <bool name="config_enableWifiDisplay">true</bool>	
+	
+     <!-- Auto Power Modes is required for Doze and App Standby -->
+      <bool name="config_enableAutoPowerModes">true</bool>
+
+    <!-- Indicate whether closing the lid causes the device to go to sleep and opening
+         it causes the device to wake up.
+         The default is false.-->
+    <bool name="config_lidControlsSleep">true</bool>	
 </resources>
