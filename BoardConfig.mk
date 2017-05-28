@@ -128,6 +128,9 @@ BOARD_CHARGER_SHOW_PERCENTAGE := true
 # Fonts
 EXTENDED_FONT_FOOTPRINT := true
 
+# Offline Charging
+BOARD_CHARGING_MODE_BOOTING_LPM := /sys/class/BOOT/BOOT/boot/boot_mode
+ 
 # LightHAL
 TARGET_PROVIDES_LIBLIGHT := true
 
