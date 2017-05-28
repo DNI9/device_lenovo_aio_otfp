@@ -59,6 +59,10 @@ PRODUCT_PACKAGES += \
 # Browser
    PRODUCT_PACKAGES += \
       Jelly         
+
+#Engmode
+PRODUCT_PACKAGES += \
+    EngineerMode
        
 PRODUCT_PACKAGES += \
 	libwvmsym
