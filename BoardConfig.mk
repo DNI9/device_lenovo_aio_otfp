@@ -128,6 +128,10 @@ BOARD_CHARGER_SHOW_PERCENTAGE := true
 # Fonts
 EXTENDED_FONT_FOOTPRINT := true
 
+# LED Path
+BOARD_RED_LED_PATH	:= "/sys/class/leds/test-led"
+BOARD_GREEN_LED_PATH	:= "/sys/class/leds/greenled"
+
 # Offline Charging
 BOARD_CHARGING_MODE_BOOTING_LPM := /sys/class/BOOT/BOOT/boot/boot_mode
  
