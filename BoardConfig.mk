@@ -100,6 +100,8 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(LOCAL_PATH)/bluetooth
 # RIL
 BOARD_PROVIDES_RILD := true
 BOARD_RIL_CLASS := ../../../device/lenovo/aio_otfp/ril
+SIM_COUNT := 2
+PRODUCT_PROPERTY_OVERRIDES += ro.telephony.sim.count=$(SIM_COUNT)
 
 # Override healthd HAL
 BOARD_HAL_STATIC_LIBRARIES += libhealthd.mt6752
