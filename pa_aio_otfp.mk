@@ -1,7 +1,5 @@
-
-
 #
-# Copyright 2017 The LineageOS Project
+# Copyright (C) 2015-2017 Paranoid Android
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -31,23 +29,18 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
+# Check for target product
+ifeq (pa_aio_otfp,$(TARGET_PRODUCT))
+
+include vendor/pa/main.mk
 
 # Call device specific makefile
 $(call inherit-product, device/lenovo/aio_otfp/device.mk)
 
-# Inherit some common AICP stuff.
-$(call inherit-product, vendor/aicp/configs/common.mk)
-
-# Inherit telephony stuff
-$(call inherit-product, vendor/aicp/configs/telephony.mk)
-
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := aicp_aio_otfp
+PRODUCT_NAME := pa_aio_otfp
 PRODUCT_DEVICE := aio_otfp
 PRODUCT_BRAND := Lenovo
 PRODUCT_MODEL := Lenovo K3 Note
 PRODUCT_MANUFACTURER := Lenovo
 PRODUCT_RESTRICT_VENDOR_FILES := false
-
-
--include vendor/aicp/configs/bootanimation.mk

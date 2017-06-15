@@ -1,2 +1,1 @@
-add_lunch_combo aicp_aio_otfp-userdebug
-add_lunch_combo lineage_aio_otfp-userdebug
+add_lunch_combo pa_aio_otfp-userdebug
