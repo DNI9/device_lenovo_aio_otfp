@@ -1,6 +1,5 @@
-
 #
-# Copyright 2017 The LineageOS Project
+# Copyright 2018 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -31,13 +30,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # Inherit Lineage's custom product configuration
-$(call inherit-product, vendor/aoscp/configs/common.mk)
+$(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Call device specific makefile
 $(call inherit-product, device/lenovo/aio_otfp/device.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := aoscp_aio_otfp
+PRODUCT_NAME := lineage_aio_otfp
 PRODUCT_DEVICE := aio_otfp
 PRODUCT_BRAND := Lenovo
 PRODUCT_MODEL := Lenovo K3 Note
