@@ -1,7 +1,7 @@
 #ifndef _BDROID_BUILDCFG_H
 #define _BDROID_BUILDCFG_H
 
-#define BTM_DEF_LOCAL_NAME   "PainKiller"
+#define BTM_DEF_LOCAL_NAME   "DNI9 Huehue"
 // Disables read remote device feature
 #define BTA_SKIP_BLE_READ_REMOTE_FEAT TRUE
 
