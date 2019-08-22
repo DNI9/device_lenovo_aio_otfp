@@ -116,6 +116,10 @@ PRODUCT_TAGS += dalvik.gc.type-precise
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/spn-conf.xml:system/etc/spn-conf.xml
 
+#Extra_packages
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/prebuilt/priv-app/Mixplorer:system/priv-app/Mixplorer
+
 # Audio
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/prebuilt/etc/audio_device.xml:system/etc/audio_device.xml \
