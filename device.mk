@@ -87,6 +87,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     WallpaperPicker
 
+# Gapps
+GAPPS_VARIANT := pico
+GAPPS_PRODUCT_PACKAGES += Chrome
+
 #Engmode
 PRODUCT_PACKAGES += \
     EngineerMode

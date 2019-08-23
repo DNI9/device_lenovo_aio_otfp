@@ -19,6 +19,9 @@ $(call inherit-product, vendor/viper/config/common_full_phone.mk)
 # Call device specific makefile
 $(call inherit-product, device/lenovo/aio_otfp/device.mk)
 
+# Inherit GAPPS
+$(call inherit-product-if-exists, vendor/opengapps/build/opengapps-packages.mk)
+
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := viper_aio_otfp
 PRODUCT_DEVICE := aio_otfp
