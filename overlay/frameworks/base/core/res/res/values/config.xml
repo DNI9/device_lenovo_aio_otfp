@@ -436,7 +436,7 @@
  
     <!-- Whether device supports double tap to wake -->
     <bool name="config_supportDoubleTapWake">true</bool>
-	<!-- hmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm -->
-	<bool name="config_useWakeLockForFlashlight">true</bool>
+    <!-- hmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm -->
+    <bool name="config_useWakeLockForFlashlight">true</bool>
 	
 </resources>
