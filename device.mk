@@ -56,6 +56,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
      Snap
 
+# DNi
+PRODUCT_PACKAGES += \
+    Mixplorer \
+    TugaBrowser
+
+
 # Browser
    PRODUCT_PACKAGES += \
       Jelly
