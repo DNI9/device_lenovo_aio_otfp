@@ -1,1 +1,1 @@
-add_lunch_combo viper_aio_otfp-userdebug
+add_lunch_combo guun_aio_otfp-userdebug
