@@ -14,7 +14,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # Inherit Lineage's custom product configuration
-$(call inherit-product, vendor/guun/config/common_full_phone.mk)
+$(call inherit-product, vendor/dot/config/common_full_phone.mk)
 
 # Call device specific makefile
 $(call inherit-product, device/lenovo/aio_otfp/device.mk)
@@ -23,7 +23,7 @@ $(call inherit-product, device/lenovo/aio_otfp/device.mk)
 $(call inherit-product-if-exists, vendor/opengapps/build/opengapps-packages.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := guun_aio_otfp
+PRODUCT_NAME := dot_aio_otfp
 PRODUCT_DEVICE := aio_otfp
 PRODUCT_BRAND := Lenovo
 PRODUCT_MODEL := Lenovo K3 Note
